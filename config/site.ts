@@ -32,7 +32,7 @@ interface SiteConfigInternal extends SiteConfig {
   _domain: string;
 }
 
-const defaultDomain = "example.com";
+const defaultDomain = "smmpanel.al";
 
 export const siteConfig: SiteConfigInternal = {
   domain: defaultDomain,
@@ -42,18 +42,18 @@ export const siteConfig: SiteConfigInternal = {
   listPrice: 1000,
   currency: "USD",
   currencySymbol: "$",
-  contactEmail: "sales@example.com",
+  contactEmail: "bur4ksocial@gmail.com",
   metaDescription: "Secure this domain today and start building your online presence.",
   ogImage: `https://${defaultDomain}/og-image.jpg`,
   links: [
-    { name: "Search", url: "https://www.google.com" },
-    { name: "News", url: "https://news.ycombinator.com" },
-    { name: "Social", url: "https://www.twitter.com" },
-    { name: "Shop", url: "https://www.amazon.com" },
+    { name: "Instagram", url: "https://instagram.com/bur4ksocial" },
+    { name: "R10.NET", url: "https://www.r10.net/profil/126637-pixeldev.html" },
+    { name: "Social", url: "#" },
+    { name: "Shop", url: "#" },
   ],
   githubRepo: {
-    name: "free-parking",
-    url: "https://github.com/justrightpl/free-parking",
+    name: "smmpanel.al",
+    url: "https://github.com/Burak35Smoke/smmpanel.al/",
   },
   isSubmitOfferEnabled: true,
   _domain: defaultDomain,
